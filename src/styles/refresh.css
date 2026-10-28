@@ -1,0 +1,434 @@
+/* ================= Palette: Mocha & Caramel =================
+   Change the colors here and the whole site follows.
+   (--espresso / --caramel / --cream / --surface / --muted are old names
+   still used by theme.css, so they point to the new colors.) */
+:root {
+  --primary: #3a2218; /* dark mocha: header pill, buttons, footer */
+  --primary-soft: #5b3a28; /* hover + roasted brown */
+  --accent: #d49a5a; /* caramel: highlights on dark backgrounds */
+  --accent-text: #8a4e22; /* dark caramel (cinnamon): readable accent text on light */
+  --bg: #f7eee2; /* latte cream page background */
+  --card: #fffbf5; /* cards, header, drawer */
+  --line: #e6d6c3; /* borders */
+  --text-soft: #6b5646; /* body copy */
+  --on-dark: #f6ebdd; /* text on dark */
+
+  --espresso: var(--primary);
+  --caramel: var(--accent);
+  --cream: var(--bg);
+  --surface: var(--card);
+  --muted: var(--text-soft);
+  color: var(--primary);
+  background: var(--bg);
+}
+body {
+  background: var(--bg);
+}
+:focus-visible {
+  outline: 3px solid var(--primary-soft);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+.hero :focus-visible,
+.page-hero :focus-visible,
+.visit-banner :focus-visible,
+.site-footer :focus-visible {
+  outline-color: var(--accent);
+}
+
+/* ---------- Header ---------- */
+.site-header {
+  background: rgba(255, 252, 248, 0.86);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+  box-shadow: none;
+  transition:
+    box-shadow 0.25s,
+    background 0.25s;
+}
+.site-header.scrolled {
+  background: rgba(255, 252, 248, 0.96);
+  box-shadow: 0 8px 30px rgba(58, 34, 24, 0.12);
+}
+.nav-inner {
+  min-height: 84px;
+  transition: min-height 0.25s;
+}
+.site-header.scrolled .nav-inner {
+  min-height: 66px;
+}
+.brand {
+  color: var(--primary);
+}
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--accent);
+  font-size: 21px;
+}
+.brand small {
+  color: var(--accent-text);
+}
+.nav-links {
+  gap: 6px;
+}
+.nav-links a {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-soft);
+  padding: 9px 16px;
+  border: 0;
+  border-radius: 999px;
+}
+.nav-links a:hover {
+  color: var(--primary);
+  background: rgba(212, 154, 90, 0.22);
+}
+.nav-links a.active {
+  color: var(--on-dark);
+  background: var(--primary);
+  border: 0;
+}
+.nav-actions {
+  align-items: center;
+  gap: 10px;
+}
+.nav-cta {
+  padding: 11px 20px;
+  font-size: 13px;
+}
+.bag-btn {
+  gap: 8px;
+  padding: 10px 15px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
+}
+.bag-btn:hover {
+  border-color: var(--accent);
+  background: #fff;
+}
+.bag-label {
+  font-style: normal;
+}
+.bag-btn span {
+  position: static;
+  background: var(--accent);
+  color: var(--primary);
+  min-width: 20px;
+  height: 20px;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 0 5px;
+}
+
+/* ---------- Buttons ---------- */
+.btn-gold {
+  background: var(--accent);
+  color: var(--primary);
+}
+.btn-gold:hover {
+  background: #e3ad73;
+}
+.btn-dark,
+.category-tabs button.selected,
+.category-tabs button:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--on-dark);
+}
+.btn-dark:hover {
+  background: var(--primary-soft);
+}
+.btn-outline {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.btn-outline:hover {
+  background: var(--primary);
+  color: var(--on-dark);
+}
+.add-button {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--on-dark);
+}
+.add-button:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--primary);
+}
+.category-tabs button {
+  border-color: var(--line);
+  background: var(--card);
+  color: var(--primary);
+}
+.text-link {
+  border-color: var(--accent);
+}
+
+/* ---------- Light sections ---------- */
+.eyebrow,
+.under-link,
+.contact-line {
+  color: var(--accent-text);
+}
+.under-link {
+  border-color: var(--accent);
+}
+.section h2 em,
+.story-copy h2 em,
+.about-text h2 em,
+.contact-info h2 em {
+  color: var(--accent-text);
+}
+.welcome-strip,
+.story-feature {
+  background: #efdfcb;
+}
+.strip-inner {
+  color: var(--primary);
+}
+.strip-inner .dot,
+.value-list svg {
+  color: var(--accent-text);
+}
+.value-list > div {
+  color: var(--primary);
+}
+.story-copy p,
+.about-text p,
+.contact-info p,
+.product-body p,
+.contact-line span {
+  color: var(--text-soft);
+}
+.product-card {
+  background: var(--card);
+  border-color: var(--line);
+  box-shadow: 0 12px 35px rgba(58, 34, 24, 0.07);
+}
+.product-card:hover {
+  box-shadow: 0 22px 50px rgba(58, 34, 24, 0.16);
+}
+.product-photo {
+  background: #e8d5bd;
+}
+.product-title,
+.product-bottom strong,
+.contact-line strong,
+.empty-cart h3 {
+  color: var(--primary);
+}
+.product-bottom,
+.drawer-head,
+.cart-footer,
+.cart-item {
+  border-color: var(--line);
+}
+.contact-form {
+  background: var(--card);
+  border-color: var(--line);
+}
+.contact-form input,
+.contact-form textarea {
+  border-color: var(--line);
+  background: #fff;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--primary-soft);
+}
+.cart-item-info span {
+  color: var(--accent-text);
+}
+.quantity {
+  border-color: var(--line);
+}
+.form-success {
+  color: var(--primary-soft);
+}
+
+/* ---------- Dark sections (hero, page banners, CTA, footer) ---------- */
+.hero {
+  background-color: var(--primary);
+  color: var(--on-dark);
+}
+.hero-shade {
+  background: linear-gradient(
+    90deg,
+    rgba(30, 16, 9, 0.93),
+    rgba(44, 25, 15, 0.76) 48%,
+    rgba(44, 25, 15, 0.14)
+  );
+}
+.hero-kicker,
+.page-hero .eyebrow,
+.visit-banner .eyebrow {
+  color: var(--accent);
+}
+.hero-kicker span {
+  background: var(--accent);
+}
+.hero h1 em {
+  color: var(--accent);
+}
+.hero-content > p,
+.page-hero p {
+  color: #e6d6c6;
+}
+.hero-note {
+  color: #d8c4ae;
+}
+.page-hero {
+  background-color: var(--primary);
+  color: var(--on-dark);
+  background-image:
+    linear-gradient(rgba(30, 16, 9, 0.84), rgba(30, 16, 9, 0.9)), url('/assets/bgimg.jpg');
+}
+.visit-banner:before {
+  background: rgba(30, 16, 9, 0.8);
+}
+.site-footer {
+  background: var(--primary);
+  color: var(--on-dark);
+}
+.footer-brand {
+  color: var(--on-dark);
+}
+.footer-brand .brand-mark {
+  background: var(--accent);
+  color: var(--primary);
+}
+.footer-top p {
+  color: #c9b3a0;
+}
+.footer-top h4 {
+  color: var(--accent);
+}
+.footer-top a:not(.brand),
+.footer-top span:not(.brand-mark):not(.brand-light) {
+  color: #d3c0ae;
+}
+.footer-bottom {
+  border-color: #5a4030;
+  color: #b09a88;
+}
+.overlay {
+  background: rgba(22, 12, 7, 0.66);
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 700px) {
+  .hero-shade {
+    background: rgba(30, 16, 9, 0.78);
+  }
+  .nav-cta,
+  .bag-label {
+    display: none;
+  }
+  .nav-inner {
+    min-height: 68px;
+  }
+  .bag-btn {
+    padding: 9px 11px;
+  }
+  .nav-links {
+    background: var(--card);
+    padding: 12px 16px 18px;
+    gap: 2px;
+    border-radius: 0 0 22px 22px;
+    border-top: 1px solid var(--line);
+    box-shadow: 0 18px 30px rgba(58, 34, 24, 0.16);
+  }
+  .nav-links.open {
+    animation: navDrop 0.22s ease-out;
+  }
+  .nav-links a {
+    padding: 13px 16px;
+    font-size: 15px;
+  }
+}
+@keyframes navDrop {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- Readable text sizes ---------- */
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 1.8px;
+}
+.product-body .eyebrow {
+  font-size: 11px;
+  letter-spacing: 1.4px;
+}
+.product-body p {
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 68px;
+}
+.strip-inner {
+  font-size: 12px;
+}
+.hero-note,
+.footer-bottom,
+.contact-form small {
+  font-size: 12px;
+}
+.cart-footer p {
+  font-size: 13px;
+}
+.brand small {
+  font-size: 9px;
+}
+.btn {
+  font-size: 13px;
+}
+@media (max-width: 700px) {
+  .strip-inner {
+    font-size: 11px;
+    letter-spacing: 1.4px;
+  }
+}
+
+/* ---------- Loading + error states ---------- */
+.skeleton {
+  min-height: 380px;
+  background: linear-gradient(100deg, var(--card) 30%, #efe2cf 50%, var(--card) 70%);
+  background-size: 300% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+@keyframes shimmer {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
+}
+.menu-status {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-soft);
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+}

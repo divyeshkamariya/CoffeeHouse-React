@@ -1,0 +1,186 @@
+/* Coffee House signature palette */
+:root {
+  --espresso: #3b2314;
+  --caramel: #c68b59;
+  --cream: #f5ebe0;
+  --surface: #fffaf4;
+  --muted: #796657;
+  color: var(--espresso);
+  background: var(--cream);
+}
+body {
+  background: var(--cream);
+}
+.site-header {
+  background: var(--surface);
+  border-color: #e8d6c5;
+  box-shadow: 0 6px 28px rgba(59, 35, 20, 0.06);
+}
+.announcement,
+.site-footer {
+  background: var(--espresso);
+}
+.announcement {
+  color: var(--cream);
+}
+.brand,
+.product-title,
+.contact-line strong {
+  color: var(--espresso);
+}
+.brand-mark,
+.eyebrow,
+.under-link,
+.value-list svg {
+  color: var(--caramel);
+}
+.nav-links a.active,
+.nav-links a:hover {
+  color: var(--espresso);
+}
+.nav-links a.active {
+  border-color: var(--caramel);
+}
+.hero {
+  background-color: var(--espresso);
+}
+.hero-shade {
+  background: linear-gradient(
+    90deg,
+    rgba(39, 20, 10, 0.94),
+    rgba(59, 35, 20, 0.74) 48%,
+    rgba(59, 35, 20, 0.12)
+  );
+}
+.hero h1 em,
+.section h2 em,
+.story-copy h2 em,
+.about-text h2 em,
+.contact-info h2 em {
+  color: var(--caramel);
+}
+.btn-gold {
+  background: var(--caramel);
+  color: var(--espresso);
+  border-radius: 999px;
+}
+.btn-gold:hover {
+  background: #dbac82;
+}
+.btn-dark,
+.category-tabs button.selected,
+.category-tabs button:hover {
+  background: var(--espresso);
+  color: var(--cream);
+}
+.btn-dark:hover {
+  background: #603b24;
+}
+.btn,
+.category-tabs button,
+.add-button {
+  border-radius: 999px;
+}
+.btn-outline {
+  color: var(--espresso);
+  border-color: var(--caramel);
+}
+.welcome-strip,
+.story-feature {
+  background: #ead9c7;
+}
+.product-card {
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid #e7d6c7;
+  box-shadow: 0 12px 35px rgba(59, 35, 20, 0.07);
+}
+.product-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 22px 50px rgba(59, 35, 20, 0.15);
+}
+.product-photo {
+  aspect-ratio: 1.15;
+}
+.product-body {
+  padding: 23px;
+}
+.product-bottom strong {
+  color: var(--espresso);
+  font-size: 19px;
+}
+.add-button {
+  background: var(--espresso);
+  color: var(--cream);
+  border-color: var(--espresso);
+  padding: 10px 15px;
+}
+.add-button:hover {
+  background: var(--caramel);
+  color: var(--espresso);
+}
+.page-hero {
+  background-color: var(--espresso);
+}
+.category-tabs button {
+  background: var(--surface);
+}
+.contact-form,
+.cart-drawer,
+.detail-modal {
+  background: var(--surface);
+  border-radius: 16px;
+}
+.contact-form input,
+.contact-form textarea {
+  border-radius: 9px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--caramel);
+}
+.bag-btn span {
+  background: var(--caramel);
+  color: var(--espresso);
+}
+.gallery-grid img {
+  border-radius: 14px;
+  transition: transform 0.25s;
+}
+.gallery-grid img:hover {
+  transform: scale(1.015);
+}
+.about-visual img,
+.story-image img {
+  border-radius: 8px;
+}
+.nav-links a,
+.btn,
+.product-card,
+.gallery-grid img {
+  transition-duration: 0.25s;
+}
+@media (max-width: 700px) {
+  .nav-links {
+    background: var(--surface);
+  }
+  .hero-shade {
+    background: rgba(39, 20, 10, 0.76);
+  }
+  .product-body {
+    padding: 16px;
+  }
+  .cart-drawer {
+    border-radius: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

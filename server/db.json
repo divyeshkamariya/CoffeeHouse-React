@@ -1,0 +1,226 @@
+{
+  "products": [
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "price": 120,
+      "image": "/assets/coffee1.jpg",
+      "description": "Strong and rich coffee made from premium beans, pulled fresh for every order.",
+      "category": "Hot Coffee",
+      "rating": 4.4,
+      "available": true
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "price": 180,
+      "image": "/assets/coffee2.jpg",
+      "description": "Creamy milk foam layered over freshly brewed espresso for a smooth finish.",
+      "category": "Hot Coffee",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": "latte",
+      "name": "Latte",
+      "price": 170,
+      "image": "/assets/coffee3.jpg",
+      "description": "Smooth and delicious coffee for every mood, made with silky steamed milk.",
+      "category": "Hot Coffee",
+      "rating": 4.5,
+      "available": true
+    },
+    {
+      "id": "americano",
+      "name": "Americano",
+      "price": 130,
+      "image": "/assets/coffee1.jpg",
+      "description": "Bold espresso topped with hot water for a clean, long and smooth cup.",
+      "category": "Hot Coffee",
+      "rating": 4.5,
+      "available": true
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "price": 190,
+      "image": "/assets/coffee2.jpg",
+      "description": "Espresso, steamed milk and rich chocolate, finished with whipped cream.",
+      "category": "Hot Coffee",
+      "rating": 4.2,
+      "available": true
+    },
+    {
+      "id": "cold-coffee",
+      "name": "Cold Coffee",
+      "price": 200,
+      "image": "/assets/coffee3.jpg",
+      "description": "Chilled coffee blended with rich chocolate flavor and topped with cream.",
+      "category": "Cold Coffee",
+      "rating": 4.5,
+      "available": true
+    },
+    {
+      "id": "mocha-frappe",
+      "name": "Mocha Frappe",
+      "price": 220,
+      "image": "/assets/coffee1.jpg",
+      "description": "A blended iced coffee with chocolate, whipped cream, and a bold espresso kick.",
+      "category": "Cold Coffee",
+      "rating": 4.5,
+      "available": true
+    },
+    {
+      "id": "iced-latte",
+      "name": "Iced Latte",
+      "price": 190,
+      "image": "/assets/coffee2.jpg",
+      "description": "Cold milk poured over espresso and ice for a refreshing, smooth sip.",
+      "category": "Cold Coffee",
+      "rating": 4.7,
+      "available": true
+    },
+    {
+      "id": "cold-brew",
+      "name": "Cold Brew",
+      "price": 210,
+      "image": "/assets/coffee3.jpg",
+      "description": "Steeped slowly for 18 hours and served over ice. Smooth with low acidity.",
+      "category": "Cold Coffee",
+      "rating": 4.8,
+      "available": true
+    },
+    {
+      "id": "masala-chai",
+      "name": "Masala Chai",
+      "price": 90,
+      "image": "/assets/coffee1.jpg",
+      "description": "Strong Assam tea simmered with milk, ginger, cardamom and a hint of cinnamon.",
+      "category": "Tea & Chai",
+      "rating": 4.7,
+      "available": true
+    },
+    {
+      "id": "iced-lemon-tea",
+      "name": "Iced Lemon Tea",
+      "price": 120,
+      "image": "/assets/coffee2.jpg",
+      "description": "Fresh black tea shaken with lemon and a little honey, served ice cold.",
+      "category": "Tea & Chai",
+      "rating": 4.3,
+      "available": true
+    },
+    {
+      "id": "matcha-latte",
+      "name": "Matcha Latte",
+      "price": 210,
+      "image": "/assets/coffee3.jpg",
+      "description": "Ceremonial-style matcha whisked with steamed milk for a creamy, earthy sip.",
+      "category": "Tea & Chai",
+      "rating": 4.7,
+      "available": true
+    },
+    {
+      "id": "chocolate-cake",
+      "name": "Chocolate Cake",
+      "price": 140,
+      "image": "/assets/desert1.jpg",
+      "description": "A soft, moist chocolate cake layered with rich chocolate ganache.",
+      "category": "Desserts",
+      "rating": 4.3,
+      "available": true
+    },
+    {
+      "id": "brownie",
+      "name": "Brownie",
+      "price": 160,
+      "image": "/assets/desert2.jpg",
+      "description": "A warm, fudgy chocolate brownie served with a gooey chocolate center.",
+      "category": "Desserts",
+      "rating": 4.6,
+      "available": true
+    },
+    {
+      "id": "cheesecake",
+      "name": "Cheesecake",
+      "price": 180,
+      "image": "/assets/desert3.jpg",
+      "description": "A creamy, fresh cream cheese dessert with a buttery biscuit base.",
+      "category": "Desserts",
+      "rating": 4.4,
+      "available": true
+    },
+    {
+      "id": "choco-chip-cookie",
+      "name": "Choco Chip Cookie",
+      "price": 80,
+      "image": "/assets/desert1.jpg",
+      "description": "Baked fresh every morning, crisp at the edges with soft, melty chocolate chunks.",
+      "category": "Desserts",
+      "rating": 4.3,
+      "available": true
+    },
+    {
+      "id": "cinnamon-roll",
+      "name": "Cinnamon Roll",
+      "price": 150,
+      "image": "/assets/desert2.jpg",
+      "description": "Warm, soft swirls of cinnamon sugar finished with a vanilla cream cheese glaze.",
+      "category": "Desserts",
+      "rating": 4.7,
+      "available": true
+    },
+    {
+      "id": "veg-sandwich",
+      "name": "Veg Sandwich",
+      "price": 150,
+      "image": "/assets/snack3.jpg",
+      "description": "A grilled sandwich packed with fresh vegetables and melted cheese.",
+      "category": "Snacks",
+      "rating": 4.3,
+      "available": true
+    },
+    {
+      "id": "french-fries",
+      "name": "French Fries",
+      "price": 110,
+      "image": "/assets/snack1.jpg",
+      "description": "Golden, crispy fries seasoned to perfection and served hot.",
+      "category": "Snacks",
+      "rating": 4.6,
+      "available": true
+    },
+    {
+      "id": "garlic-bread",
+      "name": "Garlic Bread",
+      "price": 130,
+      "image": "/assets/snack2.jpg",
+      "description": "Toasted bread topped with garlic butter and melted cheese.",
+      "category": "Snacks",
+      "rating": 4.6,
+      "available": true
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Hot Coffee"
+    },
+    {
+      "id": 2,
+      "name": "Cold Coffee"
+    },
+    {
+      "id": 3,
+      "name": "Tea & Chai"
+    },
+    {
+      "id": 4,
+      "name": "Desserts"
+    },
+    {
+      "id": 5,
+      "name": "Snacks"
+    }
+  ]
+}

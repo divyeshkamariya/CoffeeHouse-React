@@ -1,0 +1,1 @@
+Product photos use publicly hosted Unsplash image URLs in public/api/products.json. Internet connection required. Some photos are illustrative and may not match the exact product; replace URLs with verified product-specific images for production. Images are not AI-generated.

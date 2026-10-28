@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80",
+      "description": "Strong and rich coffee made from premium beans, pulled fresh for every order.",
+      "category": "Hot Coffee"
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=900&q=80",
+      "description": "Creamy milk foam layered over freshly brewed espresso for a smooth finish.",
+      "category": "Hot Coffee"
+    },
+    {
+      "id": "latte",
+      "name": "Latte",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=80",
+      "description": "Smooth and delicious coffee for every mood, made with silky steamed milk.",
+      "category": "Hot Coffee"
+    },
+    {
+      "id": "americano",
+      "name": "Americano",
+      "price": 130,
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80",
+      "description": "Bold espresso topped with hot water for a clean, long and smooth cup.",
+      "category": "Hot Coffee"
+    },
+    {
+      "id": "mocha",
+      "name": "Mocha",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80",
+      "description": "Espresso, steamed milk and rich chocolate, finished with whipped cream.",
+      "category": "Hot Coffee"
+    },
+    {
+      "id": "cold-coffee",
+      "name": "Cold Coffee",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=80",
+      "description": "Chilled coffee blended with rich chocolate flavor and topped with cream.",
+      "category": "Cold Coffee"
+    },
+    {
+      "id": "mocha-frappe",
+      "name": "Mocha Frappe",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=80",
+      "description": "A blended iced coffee with chocolate, whipped cream, and a bold espresso kick.",
+      "category": "Cold Coffee"
+    },
+    {
+      "id": "iced-latte",
+      "name": "Iced Latte",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=80",
+      "description": "Cold milk poured over espresso and ice for a refreshing, smooth sip.",
+      "category": "Cold Coffee"
+    },
+    {
+      "id": "cold-brew",
+      "name": "Cold Brew",
+      "price": 210,
+      "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=900&q=80",
+      "description": "Steeped slowly for 18 hours and served over ice. Smooth with low acidity.",
+      "category": "Cold Coffee"
+    },
+    {
+      "id": "masala-chai",
+      "name": "Masala Chai",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+      "description": "Strong Assam tea simmered with milk, ginger, cardamom and a hint of cinnamon.",
+      "category": "Tea & Chai"
+    },
+    {
+      "id": "iced-lemon-tea",
+      "name": "Iced Lemon Tea",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "description": "Fresh black tea shaken with lemon and a little honey, served ice cold.",
+      "category": "Tea & Chai"
+    },
+    {
+      "id": "matcha-latte",
+      "name": "Matcha Latte",
+      "price": 210,
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=80",
+      "description": "Ceremonial-style matcha whisked with steamed milk for a creamy, earthy sip.",
+      "category": "Tea & Chai"
+    },
+    {
+      "id": "chocolate-cake",
+      "name": "Chocolate Cake",
+      "price": 140,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80",
+      "description": "A soft, moist chocolate cake layered with rich chocolate ganache.",
+      "category": "Desserts"
+    },
+    {
+      "id": "brownie",
+      "name": "Brownie",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80",
+      "description": "A warm, fudgy chocolate brownie served with a gooey chocolate center.",
+      "category": "Desserts"
+    },
+    {
+      "id": "cheesecake",
+      "name": "Cheesecake",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+      "description": "A creamy, fresh cream cheese dessert with a buttery biscuit base.",
+      "category": "Desserts"
+    },
+    {
+      "id": "choco-chip-cookie",
+      "name": "Choco Chip Cookie",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80",
+      "description": "Baked fresh every morning, crisp at the edges with soft, melty chocolate chunks.",
+      "category": "Desserts"
+    },
+    {
+      "id": "cinnamon-roll",
+      "name": "Cinnamon Roll",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=80",
+      "description": "Warm, soft swirls of cinnamon sugar finished with a vanilla cream cheese glaze.",
+      "category": "Desserts"
+    },
+    {
+      "id": "veg-sandwich",
+      "name": "Veg Sandwich",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80",
+      "description": "A grilled sandwich packed with fresh vegetables and melted cheese.",
+      "category": "Snacks"
+    },
+    {
+      "id": "french-fries",
+      "name": "French Fries",
+      "price": 110,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80",
+      "description": "Golden, crispy fries seasoned to perfection and served hot.",
+      "category": "Snacks"
+    },
+    {
+      "id": "garlic-bread",
+      "name": "Garlic Bread",
+      "price": 130,
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+      "description": "Toasted bread topped with garlic butter and melted cheese.",
+      "category": "Snacks"
+    }
+  ]
+}
